@@ -1,9 +1,95 @@
 body {
 	font-family: Helvetica,Arial,sans-serif;
 	font-size: 32px;
+	background-color: beige
 }
 
 a {
-	color:red;
+	color:black;
 }
+
+.nepal {
+	width:800px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+	border:5px solid white;
+	transform:rotate(90deg);
+	transform:skew(0deg);
+	transition:1s;
+
+}
+
+.nepal:hover{
+	transform:skew(-90deg);
+	transition:1s;
+}
+
+.nepal img {
+	width:100%;
+	display: block;
+}
+
+.links {
+	color:white;
+	position:fixed;
+	top:60px;
+	left:180px;
+	text-transform:lowercase;
+	border-radius: 100px;
+	z-index:2;
+
+}
+
+.links a {
+	text-decoration:none;
+	color:beige;
+	display:block;
+	padding:3px;
+	background-color:white;
+
+
+}
+
+.links a:hover{
+	color:beige;
+	text-shadow: 0px 0px 5px beige;
+}
+
+.name{
+font-size:350px;
+text-align:center;
+text-shadow: 0px 0px 40px #D2B48C;
+text-transform:uppercase;
+transform:rotate(180deg);
+display:block;
+color:white;
+margin-top:310px;
+
+}
+
+.copy{
+	font-size:20px;
+	text-align:center;
+	text-transform:uppercase;
+	background-color:white;
+	padding:10px;
+	color:black;
+}
+
+.icon{
+	position:fixed;
+	top:200px;
+	right:280px;
+	
+}
+
+
+
+
+
+
+
+
+
 
